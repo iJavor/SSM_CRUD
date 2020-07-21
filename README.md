@@ -1,9 +1,10 @@
 # SSM_CRUD
 B站雷丰阳SSM_CRUD。
 主要技术点和工具：
-SSM，Maven，Mybatis Generator，PageHelper，BootStrap，Ajax，JQuery，MySQL8，Tomcat9。
-主要代码量在于前端的CRUD操作和前后端数据格式的校验，使用Ajax发送restful请求。
-后端SpringMVC返回Json字符串形式数据。
-Dao层使用的xxxMapper.xml文件均由Mybatis逆向工程生成，在此基础上做了一些修改。
-MySQL数据库数据由UUID批量生成。
-
+Maven项目构建，MySQL8.0，Tomcat9
+前端：
+BootStrap，JQuery，Ajax
+后端：
+SSM，Mybatis Generator逆向工程生成Mapper和POJO类，PageHelper分页插件
+说明：主要代码量在于前段的Ajax发送CRUD请求，请求的路径使用Restful风格，
+后端SpringMVC响应Json字符串格式数据。
